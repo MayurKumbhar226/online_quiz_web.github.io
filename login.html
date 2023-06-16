@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Msbte Examination</title>
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+	
+<div class="wrapper">
+	<div class="header">
+		<div class="logo">
+			<p>MSBTE Examination</p>
+		</div>
+		<div class="menu">
+			<ul>
+				<li class="active"><a>Login</a></li>
+				<li class="main_item aboutus"><a>Steps to appear for an Online Exam</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="main_container">
+		
+
+		
+			<div class="form">
+				<form method="post" action="index.html" onsubmit="return validate(event);">
+					<div class="form_wrap">
+						<label for="uname">Username</label>
+						<div class="input_field">
+							<input type="text" class="input" name="mayur" id="uname">
+							<i class="fas fa-user"></i>
+						</div>
+						<div class="error_msg" id="un_err_msg"></div>
+					</div>
+					<div class="form_wrap">
+						<label for="password">Password</label>
+						<div class="input_field">
+							<input type="password" class="input" name="mayur" id="password">
+							<i class="fas fa-key"></i>
+						</div>
+						<div class="error_msg" id="pw_err_msg"></div>
+					</div>
+					<div class="form_wrap">
+						<input type="submit" value="Login">
+					</div>
+				</form>
+			</div>
+		</div>
+		<div class="main_item aboutus" style="display: none;">
+			<div class="title">Steps to appear for an Online Exam</div>
+			<div class="content">
+				<p>1. Go to Candidate Login page.
+                   2. Enter Candidate username and password.
+                   3. Click on Login.
+				   4. After login candidate, there will be a display of exam details.
+				   5. Click on Proceed link to appear for exam.
+                 </p>
+			</div>
+		</div>
+	</div>
+</div>
+
+<script src="scripts.js"></script>
+
+</body>
+</html>
